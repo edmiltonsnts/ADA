@@ -1,0 +1,64 @@
+/*CSS Cascading Style Sheets*/
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+ #principais-estilos {
+  background-color: aqua;
+  color: rgb(43, 26, 5);
+  padding: 15px;
+  margin: 30px 10px;
+  border: 2px solid red;
+  border-radius: 15px;
+
+
+ }
+
+ #principais-estilos .paragrafo {
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+    font-family: monospace;
+
+ }
+
+ #flexbox .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row
+     /* Alinhamento horizontal*/
+
+   /* align-items: center; Alinhamento na vertical*/
+    
+ }
+
+ #flexbox .container .box {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(21, 136, 50);
+    
+ } 
+ #flexbox .container .box-2 {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(161, 13, 21);
+ } 
+ #grid-layout {
+    margin-top: 30px;
+
+ }
+
+ #grid-layout .container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 20px;
+
+ }
+ #grid-layout .container-grid .caixa {
+    
+    height: 200px;
+    background-color: black;
+
+ }
